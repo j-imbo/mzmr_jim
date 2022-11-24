@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Obtain Unknown Items",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/unknown_off.png"
+            },
+            {
+                "codes": "unk",
+                "img": "images/settings/unknown_req.png"
+            }
+        ]
+    },
+    {
+        "name": "Ice Beam Required",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/metroid.png"
+            },
+            {
+                "codes": "icereq",
+                "img": "images/settings/metroid_frozen.png"
+            }
+        ]
+    },
+    {
+        "name": "Plasma Beam Required",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/pirate.png"
+            },
+            {
+                "codes": "plasreq",
+                "img": "images/settings/pirate_plasma.png"
+            }
+        ]
+    },
+    {
+        "name": "Infinite Bomb Jumps",
+        "type": "toggle",
+        "codes": "ibj",
+        "loop": true,
+        "initial_active_state": true,
+        "img": "images/settings/ibj.png"
+    },
+    {
+        "name": "Wall Jumping",
+        "type": "toggle",
+        "codes": "walljump",
+        "loop": true,
+        "initial_active_state": true,
+        "img": "images/settings/walljump.png"
+    },
+    {
+        "name": "Chozo Hints",
+        "type": "toggle",
+        "codes": "chozohints",
+        "loop": true,
+        "initial_active_state": true,
+        "img": "images/chozo.png"
+    },
+    {
+        "name": "Active Hinting",
+        "type": "toggle",
+        "codes": "chozo",
+        "loop": true,
+        "img": "images/chozo.png"
+    }
+]

@@ -1,0 +1,44 @@
+[
+	{
+		"name": "brinstar",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/brinstar.png"
+	},
+	{
+		"name": "chozodia",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/chozodia.png"
+	},
+	{
+		"name": "crateria",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/crateria.png"
+	},
+	{
+		"name": "kraid",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/kraid.png"
+	},
+	{
+		"name": "norfair",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/norfair.png"
+	},
+	{
+		"name": "ridley",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/ridley.png"
+	},
+	{
+		"name": "tourian",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/tourian.png"
+	}
+]

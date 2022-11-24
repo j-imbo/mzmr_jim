@@ -1,0 +1,21 @@
+﻿{
+  "name": "MZMR Tracker",
+  "game_name": "Metroid: Zero Mission Randomizer",
+  "package_version": "1.0.0.1",
+  "package_uid": "mzmr_jim",
+  "author": "j_im",
+  "variants": {
+    "normal": {
+      "display_name": "Normal Difficulty"
+    },
+    "hard": {
+      "display_name": "Hard Difficulty"
+    },
+    "var_itemsonly_normal": {
+      "display_name": "Items Only (Normal)"
+    },
+    "var_itemsonly_hard": {
+      "display_name": "Items Only (Hard)"
+    }
+  }
+}

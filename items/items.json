@@ -1,0 +1,140 @@
+[
+    {
+        "name": "Morph Ball",
+        "type": "toggle",
+        "codes": "morph",
+        "img": "images/morph.png"
+    },
+    {
+        "name": "Morph Bombs",
+        "type": "toggle",
+        "codes": "bombs",
+        "img": "images/bomb.png"
+    },
+    {
+        "name": "Varia Suit",
+        "type": "toggle",
+        "codes": "varia",
+        "img": "images/varia.png"
+    },
+    {
+        "name": "Gravity Suit",
+        "type": "toggle",
+        "codes": "gravity",
+        "img": "images/gravity.png"
+    },
+    {
+        "name": "Long Beam",
+        "type": "toggle",
+        "codes": "long",
+        "img": "images/long.png"
+    },
+    {
+        "name": "Charge Beam",
+        "type": "toggle",
+        "codes": "charge",
+        "img": "images/charge.png"
+    },
+    {
+        "name": "Ice Beam",
+        "type": "toggle",
+        "codes": "ice",
+        "img": "images/ice.png"
+    },
+    {
+        "name": "Wave Beam",
+        "type": "toggle",
+        "codes": "wave",
+        "img": "images/wave.png"
+    },
+    {
+        "name": "Plasma Beam",
+        "type": "toggle",
+        "codes": "plasma",
+        "img": "images/plasma.png"
+    },
+    {
+        "name": "Power Grip",
+        "type": "toggle",
+        "codes": "grip",
+        "img": "images/grip.png"
+    },
+    {
+        "name": "Hi-Jump Boots",
+        "type": "toggle",
+        "codes": "hi",
+        "img": "images/hi.png"
+    },
+    {
+        "name": "Speed Booster",
+        "type": "toggle",
+        "codes": "speed",
+        "img": "images/speed.png"
+    },
+    {
+        "name": "Screw Attack",
+        "type": "toggle",
+        "codes": "screw",
+        "img": "images/screw.png"
+    },
+    {
+        "name": "Space Jump",
+        "type": "toggle",
+        "codes": "space",
+        "img": "images/space.png"
+    },
+    {
+        "name": "Acid Worm",
+        "type": "toggle",
+        "codes": "acidworm",
+        "img": "images/acidworm.png"
+    },
+    {
+        "name": "Kraid",
+        "type": "toggle",
+        "codes": "Kraid",
+        "img": "images/kraid.png"
+    },
+    {
+        "name": "Ridley",
+        "type": "toggle",
+        "codes": "ridley",
+        "img": "images/ridley.png"
+    },
+    {
+        "name": "Ruins Test",
+        "type": "toggle",
+        "codes": "ruins",
+        "img": "images/charlie.png"
+    },
+    {
+        "name": "Mecha Ridley",
+        "type": "toggle",
+        "codes": "mecha",
+        "img": "images/mecha.png"
+    },
+    {
+        "name": "E-Tank Capture",
+        "type": "toggle",
+        "codes": "ecap",
+        "img": "images/etank.png"
+    },
+    {
+        "name": "Missile Capture",
+        "type": "toggle",
+        "codes": "mcap",
+        "img": "images/missile.png"
+    },
+    {
+        "name": "Super Capture",
+        "type": "toggle",
+        "codes": "scap",
+        "img": "images/super.png"
+    },
+    {
+        "name": "Power Capture",
+        "type": "toggle",
+        "codes": "pcap",
+        "img": "images/pb.png"
+    }
+]

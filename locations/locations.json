@@ -1,0 +1,2748 @@
+[
+	{
+		"name": "Brinstar",
+		"color": "#3a95cb",
+		"access_rules": [
+			"{chozo}",
+			""
+		],
+		"children": [
+			{
+				"name": "Morph Ball Pedestal",
+				"sections": [
+					{
+					"name": "Pedestal",
+					"item_count": 1,
+					"chest_unopened_img": "images/morph.png",
+					"chest_opened_img": "images/morph_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 40,
+						"y": 248
+					}
+				]
+			},
+			{
+				"name": "Above Kraid",
+				"access_rules": [
+					"$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Launcher Missile",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 120,
+						"y": 232
+					}
+				]
+			},
+			{
+				"name": "Long Beam Chozo",
+				"access_rules": [
+					"morph",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Long Beam",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/long.png",
+						"chest_opened_img": "images/long_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 136,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Brinstar Ceiling",
+				"access_rules": [
+					"space",
+					"$ibj",
+					"[hard],ice",
+					"{morph}",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Ceiling Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 152,
+						"y": 248
+					}
+				]
+			},
+			{
+				"name": "Brinstar Shaft Left Upper",
+				"access_rules": [
+					"morph,$ledge_6_7,$bombblock",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Shaft Left Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 184,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "Brinstar Shaft Left Lower",
+				"access_rules": [
+					"$ballspark",
+					"{chozo}",
+					"{morph,$ledge_6_7,$bombblock}"
+				],
+				"sections": [
+					{
+						"name": "Shaft Left Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 184,
+						"y": 200
+					}
+				]
+			},
+			{
+				"name": "Brinstar Shaft Top",
+				"access_rules": [
+					"$ceilingtunnel_8p,$ceilingtunnel_1_2",
+					"$ceilingtunnel_8p,$bombblock",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Shaft Top Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 216,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Brinstar Shaft Right",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_1_2",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Shaft Right Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 216,
+						"y": 200
+					}
+				]
+			},
+			{
+				"name": "Brinstar Lava Chozo",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_1_2,$ledgeNW_6_7,$ceilingtunnelNW_6_7,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Varia Chozo",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/varia.png",
+						"chest_opened_img": "images/varia_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 264,
+						"y": 40
+					}
+				]
+			},
+			{
+				"name": "Deorim (Centepede)",
+				"access_rules": [
+					"morph,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Charge Beam",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/charge.png",
+						"chest_opened_img": "images/charge_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 264,
+						"y": 200
+					},
+					{
+						"map": "brinstar",
+						"x": 408,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "Brinstar Lava Dive",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_1_2,$heatimmune",
+					"$bombchain,$ceilingtunnel_1_2,$energy|150",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Lava Dive Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 296,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Hallway to Norfair",
+				"access_rules": [
+					"morph",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Hallway Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 296,
+						"y": 200
+					}
+				]
+			},
+			{
+				"name": "Brinstar Hive",
+				"access_rules": [
+					"morph,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Hive Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 312,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Hive Basement",
+				"access_rules": [
+					"morph,$any|1,$bombblock",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Basement Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 312,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "Hive Wall",
+				"access_rules": [
+					"morph,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Hive Wall Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 392,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "Brinstar Upper Hallway",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_1_2",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Upper Brinstar Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 408,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Behind Bomb Chozo",
+				"access_rules": [
+					"$missiles|1,$bombchain,$ceilingtunnel_1_2",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Behind Chozo Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 408,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Morph Bomb Chozo",
+				"access_rules": [
+					"morph,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Bomb Chozo",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/bomb.png",
+						"chest_opened_img": "images/bomb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 424,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Brinstar Acid Hall",
+				"access_rules": [
+					"morph,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Acid Hall Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"x": 424,
+						"y": 136
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Kraid",
+		"color": "#71906e",
+		"access_rules": [
+			"{chozo}",
+			""
+		],
+		"children": [
+			{
+				"name": "Sidehopper Hall",
+				"access_rules": [
+					"$bombblock,$ceilingtunnel_3_4,acidworm",
+					"$bombblock,$ceilingtunnel_3_4,$gravity,$ledgeNW_8p",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Sidehopper Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 40,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Hidden Save Hallway",
+				"access_rules": [
+					"morph,$bombblock,$bombchain",
+					"morph,$bombblock,$any|1,$ballspark",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Hidden Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 88,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Bomb Jump Zipline",
+				"access_rules": [
+					"morph,$bombblock,$ledge_4_5",
+					"morph,$bombblock,acidworm",
+					"morph,$bombblock,grip,$iwj",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Jump Line Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 104,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "Zipline Hallway",
+				"access_rules": [
+					"$bombblock,$ceilingtunnel_3_4,acidworm,$bombchain,$any1,$launcher",
+					"$bombblock,$ceilingtunnel_3_4,$gravity,$ledgeNW_8p,$bombchain,$any|1,$launcher",
+					"$bombblock,$ceilingtunnel_3_4,acidworm,$bombchain,$any|1,speed",
+					"$bombblock,$ceilingtunnel_3_4,$gravity,$ledgeNW_8p,$bombchain,$any|1,speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Launcher Zipline Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Kraid",
+						"x": 104,
+						"y": 216
+					}
+				]
+			},
+			{
+				"name": "Space Jump Chozo",
+				"access_rules": [
+					"$bombblock,$ceilingtunnel_3_4,acidworm,$bombchain",
+					"$bombblock,$ceilingtunnel_3_4,$gravity,$ledgeNW_8p,$bombchain",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Space Jump Chozo",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/space.png",
+						"chest_opened_img": "images/space_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 104,
+						"y": 248
+					}
+				]
+			},
+			{
+				"name": "Acid Spark Room",
+				"access_rules": [
+					"$bombblock,$ceilingtunnel_3_4,$gravity,$ballspark",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Acid Spark Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 120,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Kraid",
+				"access_rules": [
+					"$bombblock,$ceilingtunnel_3_4,acidworm,$bombchain,$any|1",
+					"$bombblock,$ceilingtunnel_3_4,$gravity,$ledgeNW_8p,$bombchain,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Kraid Reward",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/speed.png",
+						"chest_opened_img": "images/speed_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 120,
+						"y": 264
+					}
+				]
+			},
+			{
+				"name": "Acid Worm Missiles",
+				"access_rules": [
+					"acidworm",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Acid Worm Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 168,
+						"y": 88
+					}
+				]
+			},
+			{
+				"name": "Right Hallway",
+				"access_rules": [
+					"morph,$bombblock,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Hallway Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 168,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Kraid Escape",
+				"access_rules": [
+					"$bombblock,$ceilingtunnel_3_4,acidworm,$bombchain",
+					"$bombblock,$ceilingtunnel_3_4,$gravity,$ledgeNW_8p,$bombchain",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Escape Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 184,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "Above Acid Worm",
+				"access_rules": [
+					"$bombblock,$any|1,$launcher,grip,$ceilingtunnel_5",
+					"$bombblock,$any|1,$launcher,$ledge_8p,$ceilingtunnel_5",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Acid Worm Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 200,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Lava Bug Room",
+				"access_rules": [
+					"morph,$bombblock,$any|1,speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Lava Speed Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 200,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "PreWorm Launcher",
+				"access_rules": [
+					"$bombblock,$any|1,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Launcher Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"x": 232,
+						"y": 88
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Norfair",
+		"color": "#f4a201",
+		"access_rules": [
+			"{chozo}",
+			""
+		],
+		"children": [
+			{
+				"name": "Norfair Power Bombs",
+				"access_rules": [
+					"$norheatrun,$any|3,$ceilingtunnel_1_2,$gravity,$ledgeNW_8p",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Norfair Power Bombs",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/pb.png",
+						"chest_opened_img": "images/pb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 40,
+						"y": 200
+					}
+				]
+			},
+			{
+				"name": "Norfair Power Missile",
+				"access_rules": [
+					"$norheatrun,$any|3,$gravity,$ledge_4_5",
+					"$norheatrun,$any|3,grip,varia,$energy|350",
+					"$norheatrun,$any|3,grip,$energy|600",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Norfair Power Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 56,
+						"y": 216
+					}
+				]
+			},
+			{
+				"name": "Screw Attack Chozo",
+				"access_rules": [
+					"$norheatrun,$ledge_8p,screw",
+					"$norheatrun,$ledge_8p,|4",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Screw Attack",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/screw.png",
+						"chest_opened_img": "images/screw_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 88,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "Screw Hallway",
+				"access_rules": [
+					"$norheatrun,$ledge_8p,screw",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Screw Hall Ceiling Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 120,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "Grip Block",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Grip Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 152,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Near Crateria Dead End",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Dead End Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 152,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Wave Beam Chozo",
+				"access_rules": [
+					"$norheatrun",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Wave Chozo",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/wave.png",
+						"chest_opened_img": "images/wave_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 152,
+						"y": 216
+					}
+				]
+			},
+			{
+				"name": "Dragon Colony",
+				"access_rules": [
+					"$norshaft,speed,$supers|1",
+					"$norshaft,screw,$supers|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Colony Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 168,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Bubble Room Center",
+				"access_rules": [
+					"$norheatrun,$ceilingtunnel_3_4,$ledgeNW_6_7",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Middle Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 168,
+						"y": 232
+					}
+				]
+			},
+			{
+				"name": "Bubble Room End",
+				"access_rules": [
+					"$norheatrun,$ledgeNW_6_7",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "End Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 200,
+						"y": 232
+					}
+				]
+			},
+			{
+				"name": "Dragon Hallway",
+				"access_rules": [
+					"$norshaft,speed,$supers|1",
+					"$norshaft,screw,$supers|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Dragon Hall Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 216,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Long Dead End Ext",
+				"access_rules": [
+					"$norheatrun,$supers|1,$ledgeNW_8p",
+					"$norheatrun,$supers|1,$canfreeze,$ceilingtunnel_3_4",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Dead End Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 232,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "Long Dead End",
+				"access_rules": [
+					"$norheatrun,$supers|1,$ceilingtunnelNW_8p",
+					"$norheatrun,$supers|1,$canfreeze",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Dead End Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 264,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "Ice Beam Chozo",
+				"access_rules": [
+					"$norshaft,$iwj",
+					"$norshaft,grip",
+					"$norshaft,$ibj",
+					"$norshaft,$space",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Ice Beam Chozo",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/ice.png",
+						"chest_opened_img": "images/ice_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 280,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Above Ice Hot Room",
+				"access_rules": [
+					"$norshaft,$heatimmune",
+					"$norshaft,$energy|120",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Heated Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 296,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Hi Jump Chozo",
+				"access_rules": [
+					"$norshaft,$iwj,$ceilingtunnel_8p",
+					"$norshaft,grip,$ceilingtunnel_8p",
+					"$norshaft,$ibj,$ceilingtunnel_8p",
+					"$norshaft,$space,$ceilingtunnel_8p",
+					"$norshaft,speed,$any|1",
+					"$norshaft,screw,$any|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Hi Jump Boots",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/hi.png",
+						"chest_opened_img": "images/hi_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 296,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Cathedral",
+				"access_rules": [
+					"$bombchain,$ledgeNW_8p",
+					"$bombchain,speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Cathedral Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 312,
+						"y": 88
+					}
+				]
+			},
+			{
+				"name": "Ripper Room",
+				"access_rules": [
+					"$norshaft,$iwj,$ceilingtunnel_3_4",
+					"$norshaft,grip,$ceilingtunnel_3_4",
+					"$norshaft,$ibj,$ceilingtunnel_3_4",
+					"$norshaft,$space,ice,$ceilingtunnel_3_4",
+					"$norshaft,$iwj,$ceilingtunnel_8p",
+					"$norshaft,grip,$ceilingtunnel_8p",
+					"$norshaft,$ibj,$ceilingtunnel_8p",
+					"$norshaft,$space,$ceilingtunnel_8p",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Ripper Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 328,
+						"y": 40
+					}
+				]
+			},
+			{
+				"name": "Larval Hall",
+				"access_rules": [
+					"$norheatrun,speed,$ceilingtunnel_3_4,bomb",
+					"$norheatrun,speed,$ceilingtunnel_3_4,$powers|1",
+					"$norheatrun,speed,$ceilingtunnel_3_4,$plasma",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Larvae Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 328,
+						"y": 200
+					}
+				]
+			},
+			{
+				"name": "Norfair Shaft",
+				"access_rules": [
+					"$norshaft,$iwj,$ceilingtunnel_8p",
+					"$norshaft,grip,$ceilingtunnel_8p",
+					"$norshaft,$ibj,$ceilingtunnel_8p",
+					"$norshaft,$space,$ceilingtunnel_8p",
+					"$norshaft,speed,$ceilingtunnel_6_7",
+					"$norshaft,screw,$ceilingtunnel_6_7",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Shaft Middle Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 344,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Shaft Larval Section",
+				"access_rules": [
+					"$norshaft,$iwj,$ceilingtunnel_8p",
+					"$norshaft,grip,$ceilingtunnel_8p",
+					"$norshaft,$ibj,$ceilingtunnel_8p",
+					"$norshaft,$space,$ceilingtunnel_8p",
+					"$norheatrun,speed,$ceilingtunnel_3_4,bomb",
+					"$norheatrun,speed,$ceilingtunnel_3_4,$powers|1",
+					"$norheatrun,speed,$ceilingtunnel_3_4,$plasma",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Shaft Lower Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"x": 344,
+						"y": 200
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Ridley",
+		"color": "#483d8b",
+		"access_rules": [
+			"{chozo}",
+			""
+		],
+		"children": [
+			{
+				"name": "Puzzle Room Upper",
+				"access_rules": [
+					"$ridley,speed,grip",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Upper Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 56,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "Puzzle Room Lower",
+				"access_rules": [
+					"$ridley,speed,grip",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Lower Missles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 56,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "Ridley Left Shaft",
+				"access_rules": [
+					"$ridley,$launcher",
+					"$ridley,speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Left Shaft Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 72,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "Ridley Second Reward",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Ridley Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/tank.png",
+						"chest_opened_img": "images/tank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 88,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Ridley Reward",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Gravity Chozo",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/gravity.png",
+						"chest_opened_img": "images/gravity_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 104,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Fake Floors",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Pit Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/tank.png",
+						"chest_opened_img": "images/tank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 120,
+						"y": 88
+					}
+				]
+			},
+			{
+				"name": "Puzzle Tunnel",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Tunnel Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 136,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Puzzle Fall",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Fall Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 136,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Imago",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Imago Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 152,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Puzzle Free",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Puzzle Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 152,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Pre-Puzzle",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Puzzle Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 152,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Basement Hallway",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Basement Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 168,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "Pillar Trap",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Pillar Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 200,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Floating Pillar",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Floating Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 216,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Hidden Alcove",
+				"access_rules": [
+					"$ridley,speed,$supers|1",
+					"$ridley,$launcher,$supers|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Alcove Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 232,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Pit Room",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Pit Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 264,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "Green Room",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Greenroom Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 280,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Bug Room",
+				"access_rules": [
+					"$ridley,speed,$ledgeNW_8p",
+					"$ridley,$launcher,$ledgeNW_8p",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Bug Room Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 312,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Large Speed Room",
+				"access_rules": [
+					"$ridley,speed,grip",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Speed Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 360,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Wave Speedroom",
+				"access_rules": [
+					"$ridley,speed,wave",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Wave Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"x": 392,
+						"y": 120
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Tourian",
+		"access_rules": [
+			"ridley,kraid",
+			"{chozo}"
+		],
+		"color": "#c06c84",
+		"children": [
+			{
+				"name": "Tourian Shaft",
+				"access_rules": [
+					"$fullypowered,$supers|1,speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Tourian Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tourian",
+						"x": 40,
+						"y": 216
+					}
+				]
+			},
+			{
+				"name": "Below Mother Brain",
+				"access_rules": [
+					"$fullypowered,$supers|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Mother Brain Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tourian",
+						"x": 72,
+						"y": 232
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Crateria",
+		"color": "#a9ffeb",
+		"access_rules": [
+			"{chozo}",
+			""
+		],
+		"children": [
+			{
+				"name": "Ship Room",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5,$ballspark,$supers|1",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Ship Power Bombs",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/pb.png",
+						"chest_opened_img": "images/pb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crateria",
+						"x": 152,
+						"y": 88
+					}
+				]
+			},
+			{
+				"name": "Power Grip Chozo",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Power Grip",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/grip.png",
+						"chest_opened_img": "images/grip_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crateria",
+						"x": 232,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Water Room",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Water Room Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crateria",
+						"x": 280,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Pre Plasma",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Plasma Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crateria",
+						"x": 312,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Plasma Chozo",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Plasma Beam",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/plasma.png",
+						"chest_opened_img": "images/plasma_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crateria",
+						"x": 328,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Crateria Sparkball",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5,$ballspark",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Sparkball Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crateria",
+						"x": 344,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Crateria Top",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_5,speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Crateria Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crateria",
+						"x": 360,
+						"y": 56
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Chozodia",
+		"color": "#ffd358",
+		"access_rules": [
+			"$fullypowered",
+			"{chozo}"
+		],
+		"children": [
+			{
+				"name": "Crateria Dead End",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Dead End Power Bombs",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/pb.png",
+						"chest_opened_img": "images/pb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 88,
+						"y": 328
+					}
+				]
+			},
+			{
+				"name": "Morph Bomb Maze",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Bomb Maze Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 88,
+						"y": 376
+					}
+				]
+			},
+			{
+				"name": "Morph Maze",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Maze Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 120,
+						"y": 376
+					}
+				]
+			},
+			{
+				"name": "Stealth Pit",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Stealth Pit Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 136,
+						"y": 344
+					}
+				]
+			},
+			{
+				"name": "Chozodia Shaft",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Chozodia Shaft Missiles",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/missile.png",
+						"chest_opened_img": "images/missile_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 184,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Chozodia Pool",
+				"access_rules": [
+					"gravity,speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Pool Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 184,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "Stealth Tunnels",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Stealth Power Bombs",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/pb.png",
+						"chest_opened_img": "images/pb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 184,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "Chozodia Tunnel",
+				"access_rules": [
+					"speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Tunnel Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 184,
+						"y": 328
+					}
+				]
+			},
+			{
+				"name": "Chozodia Lava Room",
+				"access_rules": [
+					"gravity",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Lava Dive Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 200,
+						"y": 248
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Mothership",
+		"color": "#d62976",
+		"access_rules": [
+			"$fullypowered",
+			"{chozo}"
+		],
+		"children": [
+			{
+				"name": "Security Room",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Prime Power Bombs",				
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/pb.png",
+						"chest_opened_img": "images/pb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 248,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Ceiling Alcove",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Ceiling Power Bombs",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/pb.png",
+						"chest_opened_img": "images/pb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 264,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "Mothership Bottom Shaft",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Shaft Power Bombs",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/pb.png",
+						"chest_opened_img": "images/pb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 264,
+						"y": 248
+					}
+				]
+			},
+			{
+				"name": "Chozodia Shaft Dead End",
+				"access_rules": [
+					"gravity,speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Mothership Hidden Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 296,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "Pirate Pit",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Pirate Pit Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 312,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Maintenance Alcove",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Maintenance Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 344,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Ground Floor Ceiling",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Ceiling Supers",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/super.png",
+						"chest_opened_img": "images/super_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 360,
+						"y": 280
+					}
+				]
+			},
+			{
+				"name": "Security Basement",
+				"access_rules": [
+					"speed",
+					"{chozo}"
+				],
+				"sections": [
+					{
+						"name": "Security Tank",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/etank.png",
+						"chest_opened_img": "images/etank_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 376,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Crash Site",
+				"access_rules": [
+					"{chozo}",
+					""
+				],
+				"sections": [
+					{
+						"name": "Crash Site Power Bombs",
+						"item_count": 1,
+						"capture_item": true,
+						"chest_unopened_img": "images/pb.png",
+						"chest_opened_img": "images/pb_gray.png"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 440,
+						"y": 264
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Chozo Hints",
+		"color": "#b0b080",
+		"chest_unopened_img": "images/chozo.png",
+		"chest_opened_img": "images/chozo_gray.png",
+		"access_rules": [
+			"morph"
+		],
+		"children": [
+			{
+				"name": "Long Hint Chozo",
+				"sections": [
+					{
+						"name": "Long Beam Hint",
+						"visibility_rules": [
+							"chozohints"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"size": 8,
+						"x": 184,
+						"y": 248
+					}
+				]
+			},
+			{
+				"name": "Bombs Hint Chozo",
+				"access_rules": [
+					"morph,long",
+					"morph,ice",
+					"morph,wave",
+					"morph,$plasma",
+					"morph,$any|1",
+					"morph,$bombchain"
+				],
+				"sections": [
+					{
+						"name": "Morph Bombs Hint",
+						"visibility_rules": [
+							"chozohints"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"size": 8,
+						"x": 184,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Ice Hint Chozo",
+				"access_rules": [
+					"morph,bombs,$any|1"
+				],
+				"sections": [
+					{
+						"name": "Ice Beam Hint",
+						"visibility_rules": [
+							"chozohints"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"size": 8,
+						"x": 328,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "Speed Hint Chozo",
+				"access_rules": [
+					"$norshaft,$iwj",
+					"$norshaft,grip",
+					"$norshaft,$ibj",
+					"$norshaft,$space"
+				],
+				"sections": [
+					{
+						"name": "Speed Booster Hint",
+						"visibility_rules": [
+							"chozohints"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"size": 8,
+						"x": 280,
+						"y": 40
+					}
+				]
+			},
+			{
+				"name": "Hi Jump Hint Chozo",
+				"access_rules": [
+					"kraid,$bombblock,$ceilingtunnel_3_4,acidworm,$bombchain,$any|1",
+					"kraid,$bombblock,$ceilingtunnel_3_4,$gravity,$ledgeNW_8p,$bombchain,$any|1"
+				],
+				"sections": [
+					{
+						"name": "Hi Jump Boots Hint",
+						"visibility_rules": [
+							"chozohints"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"size": 8,
+						"x": 170,
+						"y": 296
+					}
+				]
+			},
+			{
+				"name": "Varia Hint Chozo",
+				"access_rules": [
+					"$norshaft"
+				],
+				"sections": [
+					{
+						"name": "Varia Suit Hint",
+						"visibility_rules": [
+							"chozohints"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "norfair",
+						"size": 8,
+						"x": 328,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "Wave Hint Chozo",
+				"access_rules": [
+					"$bombchain,$ceilingtunnel_1_2"
+				],
+				"sections": [
+					{
+						"name": "Wave Beam Hint",
+						"visibility_rules": [
+							"chozohints"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "brinstar",
+						"size": 8,
+						"x": 458,
+						"y": 72
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Bosses",
+		"children": [
+			{
+				"name": "Kraid (Boss)",
+				"parent": "Kraid",
+				"color": "#508850",
+				"access_rules": [
+					"$bombblock,$ceilingtunnel_3_4,acidworm,$bombchain,$any|1",
+					"$bombblock,$ceilingtunnel_3_4,$gravity,$ledgeNW_8p,$bombchain,$any|1"
+				],
+				"sections": [
+					{
+						"name": "Kraid Defeated",
+						"hosted_item": "kraid"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"size": 18,
+						"x": 144,
+						"y": 256
+					}
+				]
+			},
+			{
+				"name": "Ridley (Boss)",
+				"parent": "Ridley",
+				"color": "#a80018",
+				"access_rules": [
+					"$ridley,speed",
+					"$ridley,$launcher"
+				],
+				"sections": [
+					{
+						"name": "Ridley Defeated",
+						"hosted_item": "ridley"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ridley",
+						"size": 18,
+						"x": 128,
+						"y": 144
+					}
+				]
+			},
+			{
+				"name": "Acid Worm",
+				"parent": "Kraid",
+				"color": "#64526c",
+				"access_rules": [
+					"$bombblock,$any|1,$launcher,grip,$ceilingtunnel_5",
+					"$bombblock,$any|1,$launcher,$ledge_8p,$ceilingtunnel_5"
+				],
+				"sections": [
+					{
+						"name": "Acid Worm Defeated",
+						"hosted_item": "acidworm"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "kraid",
+						"size": 18,
+						"x": 192,
+						"y": 80
+					}
+				]
+			},
+			{
+				"name": "Ruins Test",
+				"parent": "Chozodia",
+				"color": "#a8f8f8",
+				"access_rules": [
+					"$fullypowered"
+				],
+				"sections": [
+					{
+						"name": "Ruins Test Completed",
+						"hosted_item": "ruins"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"x": 120,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "Mecha Ridley",
+				"parent": "Mothership",
+				"color": "#a8a8a8",
+				"access_rules": [
+					"$fullypowered,plasma",
+					"$fullypowered,plasreq"
+				],
+				"sections": [
+					{
+						"name": "Mecha Ridley Defeated",
+						"hosted_item": "mecha"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "chozodia",
+						"size": 20,
+						"x": 400,
+						"y": 48
+					}
+				]
+			}
+		]
+	}
+]

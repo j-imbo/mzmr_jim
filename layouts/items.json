@@ -1,0 +1,37 @@
+{
+    "items": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "1,2",
+                "item_size": 48,
+                "rows": [
+                    [ "etank", "missile", "super", "pb" ],
+                    [ "morph", "bombs", "varia", "gravity" ],
+                    [ "long", "charge", "ice", "wave", "plasma" ],
+                    [ "grip", "hi", "speed", "screw", "space" ],
+                    [ "acidworm", "ridley", "kraid", "ruins", "chozo"]
+                ]
+            }
+        ]
+    },
+    "settings": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "1,2",
+                "item_size": 64,
+                "rows": [
+                    ["unk","icereq","plasreq"],
+                    ["ibj","walljump","chozohints"]
+                ]
+            }
+        ]
+    }
+}

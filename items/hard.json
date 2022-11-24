@@ -1,0 +1,33 @@
+[
+    {
+        "name": "E-Tanks",
+        "codes": "etank",
+        "img": "images/etank.png",
+        "type": "consumable",
+        "max_quantity": 12
+    },
+    {
+        "name": "Missile",
+        "codes": "missile",
+        "img": "images/missile.png",
+        "type": "consumable",
+        "max_quantity": 100,
+        "increment": 2
+    },
+    {
+        "name": "Super Missiles",
+        "codes": "super",
+        "img": "images/super.png",
+        "type": "consumable",
+        "max_quantity": 15,
+        "increment": 1
+    },
+    {
+        "name": "Power Bombs",
+        "codes": "pb",
+        "img": "images/pb.png",
+        "type": "consumable",
+        "max_quantity": 9,
+        "increment": 1
+    }
+]
